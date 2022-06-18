@@ -30,7 +30,7 @@ func newOcNOSDriver(
 			Name:           "exec",
 			PreviousPriv:   "linux",
 			Deescalate:     "logout",
-			Escalate:       "imish",
+			Escalate:       "cmlsh",
 			EscalateAuth:   false,
 			EscalatePrompt: ``,
 		},
